@@ -1,0 +1,15 @@
+2024-09-22 20:49:53,669 - INFO - Llamando a la función 'calcular_factorial' con args: (5,) y kwargs: {'user_role': 'admin'}
+2024-09-22 20:49:53,670 - INFO - Llamando a la función 'calcular_factorial' con args: (4,) y kwargs: {'user_role': 'admin'}
+2024-09-22 20:49:53,670 - INFO - Llamando a la función 'calcular_factorial' con args: (3,) y kwargs: {'user_role': 'admin'}
+2024-09-22 20:49:53,670 - INFO - Llamando a la función 'calcular_factorial' con args: (2,) y kwargs: {'user_role': 'admin'}
+2024-09-22 20:49:53,670 - INFO - Llamando a la función 'calcular_factorial' con args: (1,) y kwargs: {'user_role': 'admin'}
+2024-09-22 20:49:53,670 - INFO - Función 'calcular_factorial' retornó: 1
+2024-09-22 20:49:53,670 - INFO - Función 'calcular_factorial' retornó: 2
+2024-09-22 20:49:53,670 - INFO - Función 'calcular_factorial' retornó: 6
+2024-09-22 20:49:53,670 - INFO - Función 'calcular_factorial' retornó: 24
+2024-09-22 20:49:53,670 - INFO - Función 'calcular_factorial' retornó: 120
+2024-09-22 20:49:53,670 - INFO - Resultado obtenido de la caché para la función 'calcular_factorial' con clave (5, ('user_role', 'admin'))
+2024-09-22 20:49:53,670 - WARNING - Acceso denegado para la función 'obtener_datos' con args: ('/api/usuarios',), kwargs: {'user_role': 'guest'}
+2024-09-22 20:49:53,670 - INFO - Llamando a la función 'obtener_datos' con args: ('/api/productos',) y kwargs: {'user_role': 'admin'}
+2024-09-22 20:49:55,671 - INFO - Función 'obtener_datos' retornó: {'data': 'Datos de /api/productos'}
+2024-09-22 20:49:55,671 - INFO - Resultado obtenido de la caché para la función 'obtener_datos' con clave ('/api/productos', ('user_role', 'admin'))
